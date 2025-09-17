@@ -1,6 +1,6 @@
 namespace DefaultNamespace;
 
-interface IInput<input>
+interface IInput // Estandarizo las entradas al circuito
 {
-    bool GetValue(input obj);
+    bool GetValue(); // Obligo a las clases que lo implementen a que utilicen este método
 }
